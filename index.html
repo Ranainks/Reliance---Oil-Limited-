@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reliance Oil Limited</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="container header-container">
+      <img src="images/logo 1.png" alt="Reliance Oil Logo" class="logo">
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#sustainability">Sustainability</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#careers">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <form class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">🔍</button>
+      </form>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+  <div class="slider">
+    <div class="slide active" style="background-image: url('images/filling.jpg');">
+      <div class="hero-content">
+        <h1>Powering Ghana’s Future</h1>
+        <p>Reliance Oil Limited Ghana drives sustainable energy growth and fuels national development.</p>
+        <a href="#services" class="btn">Our Services</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/Day.jpg');">
+      <div class="hero-content">
+        <h1>Sustainable Energy for All</h1>
+        <p>We are committed to renewable energy investments and eco-friendly practices.</p>
+        <a href="#sustainability" class="btn">Learn More</a>
+      </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/Drainslines.jpg');">
+      <div class="hero-content">
+        <h1>Innovation in Oil & Gas</h1>
+        <p>Reliance Oil combines cutting-edge technology with world-class expertise.</p>
+        <a href="#products" class="btn">Our Products</a>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="slider-nav">
+      <span class="prev" onclick="prevSlide()">&#10094;</span>
+      <span class="next" onclick="nextSlide()">&#10095;</span>
+    </div>
+
+    <!-- Dots -->
+    <div class="dots"></div>
+  </div>
+</section>
+
+<!-- ===== FEATURED CONTENT ===== -->
+<section class="featured">
+  <div class="container">
+    <h2 class="section-title">Featured Content</h2>
+    <div class="cards">
+      
+      <div class="card">
+        <img src="images/strategy.jpg" alt="Strategy">
+        <div class="card-content">
+          <h3><i class="fas fa-chart-line"></i> Our Strategy</h3>
+          <p>We deliver long-term value by driving innovation in Ghana’s oil and gas industry.</p>
+          <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/Drainslines.jpg" alt="Sustainability">
+        <div class="card-content">
+          <h3><i class="fas fa-leaf"></i> Sustainability</h3>
+          <p>Reliance Oil is committed to clean energy investments and reducing carbon emissions.</p>
+          <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/careers.jpg" alt="Careers">
+        <div class="card-content">
+          <h3><i class="fas fa-users"></i> Careers</h3>
+          <p>Join Reliance Oil and be part of Ghana’s growing energy future.</p>
+          <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/Inovation.jpg" alt="Innovation">
+        <div class="card-content">
+          <h3><i class="fas fa-lightbulb"></i> Innovation</h3>
+          <p>From exploration to renewable energy, we use technology to drive progress.</p>
+          <a href="#" class="read-more">Read more <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div class="card fade-in">
+        <h2>About Us</h2>
+        <p>Reliance Oil Limited Ghana is one of the leading oil and gas companies contributing to Ghana’s energy sector. We are committed to innovation, safety, and sustainability while delivering value to communities.</p>
+      </div>
+      <img src="images/About.jpg" alt="About Reliance Oil" class="rounded-img fade-in">
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title fade-in">Our Services</h2>
+      <div class="grid-3">
+        <div class="card fade-in">
+          <h3>Exploration & Production</h3>
+          <p>Developing Ghana’s oil fields with advanced technology and world-class expertise.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Refining & Distribution</h3>
+          <p>Reliable refining processes and efficient distribution networks across the country.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Energy Solutions</h3>
+          <p>Innovative energy services tailored to power Ghana’s growth sustainably.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section id="products" class="section">
+    <div class="container grid-2 overlap">
+      <img src="images/our products.jpg" alt="Our Products" class="rounded-img shadow">
+      <div class="card fade-in">
+        <h2>Our Products</h2>
+        <p>We supply high-quality petroleum products including premium fuels, lubricants, and natural gas. Our products meet global standards and support both industries and households across Ghana.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SUSTAINABILITY ===== -->
+  <section id="sustainability" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title fade-in">Sustainability</h2>
+      <div class="grid-3">
+        <img src="images/Transport.jpg" alt="Our Products" class="rounded-img shadow">
+        <div class="card fade-in">
+          <h3>Environmental Care</h3>
+          <p>We adopt eco-friendly practices that minimize emissions and protect biodiversity.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Community Impact</h3>
+          <p>Our CSR projects empower local communities in education, health, and development.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Future Energy</h3>
+          <p>Investing in renewable and clean energy sources for a sustainable tomorrow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS ===== -->
+  <section id="news" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">Latest News</h2>
+      <div class="grid-3">
+        <div class="card fade-in">
+          <h3>New Exploration Projects</h3>
+          <p>Reliance Oil launches new exploration blocks to expand Ghana’s oil reserves.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>CSR in Education</h3>
+          <p>Over 5,000 students benefit from our scholarship and ICT training programs.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Sustainability Report</h3>
+          <p>Our 2025 report highlights major strides in renewable energy and community impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CAREERS ===== -->
+  <section id="careers" class="section bg-light">
+    <div class="container grid-2">
+      <div class="card">
+        <h2>Careers</h2>
+        <p>Join a dynamic workforce shaping Ghana’s energy future. We offer exciting career paths in exploration, engineering, and business operations.</p>
+        <a href="#contact" class="btn">Apply Now</a>
+      </div>
+      <img src="images/careers.jpg" alt="Careers" class="rounded-img fade-in">
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container grid-2">
+      <form class="card contact-form">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <iframe src="https://maps.google.com/maps?q=Accra,Ghana&t=&z=13&ie=UTF8&iwloc=&output=embed" class="map"></iframe>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Reliance Oil Limited Ghana. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
